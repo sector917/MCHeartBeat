@@ -1,0 +1,6 @@
+#!/bin/sh
+
+JAVA_HOME=/usr/local/java
+MCHB_HOME=/home/worker/bin
+
+$JAVA_HOME/bin/java -cp $MCHB_HOME/mchb-1.0.5.jar -jar $MCHB_HOME/mchb-1.0.5.jar $*
